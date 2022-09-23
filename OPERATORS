@@ -1,0 +1,69 @@
+#Sum and Difference
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+
+
+#Product and Division
+a=int(input())
+b=int(input())
+print(a*b)
+print(a//b)
+print(a%b)
+
+
+#Swapping of two numbers
+a=int(input())
+b=int(input())
+c=a
+a=b
+b=c
+print('the value of a after swapping:{}'.format(a))
+print('the value of b after swapping:{}'.format(b))
+
+
+#Swapping without third variable
+a=int(input())
+b=int(input())
+a,b=b,a
+print("a=",a)
+print("b=",b)
+
+
+#Average Calculation
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+e=float(input())
+avg=(a+b+c+d+e)/5
+print("%2f" %avg)
+
+
+#Alice in Wonderland
+a=input("enter the two digit number")
+b=int(a[0])+int(a[1])
+print(b)
+
+
+#Area Calculation
+s=int(input("enter side of a square:"))
+l=int(input("enter length of a rectangle:"))
+b=int(input("enter breadth of a rectangle:"))
+r=float(input("enter radius of a circle:"))
+x=s*s
+y=l*b
+z=3.14*r*r
+print(x)
+print(y)
+print("%.2f" %z)
+
+
+#Fencing the ground
+a=int(input())
+b=int(input())
+x=(2*(a+b))
+y=(a*b)
+print("Required length is",x,"m")
+print("Required quantity of carpet is",y,"sqm")
