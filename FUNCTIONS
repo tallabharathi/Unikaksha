@@ -1,0 +1,32 @@
+#Arithmetic Operators
+def fun(a,b):
+    c=a+b
+    print(c)
+    d=a-b
+    print(d)
+    m=a*b
+    print(m)
+    e=a/b
+    print("%.1f"%e)
+    f=a//b
+    print(f)
+    g=a%b
+    print(g)
+a=int(input())
+b=int(input())
+fun(a,b)
+
+
+#Sqaure Rootdef fun(n):
+    a=n**2
+    print(a)
+n=int(input())
+fun(n)
+
+
+#Cube Root
+def fun(n):
+    a=n**3
+    print(a)
+n=int(input())
+fun(n)
